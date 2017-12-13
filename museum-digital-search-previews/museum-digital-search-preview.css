@@ -1,0 +1,7 @@
+ul#listMDpreviews       { margin: 0px; padding: 0px; }
+ul#listMDpreviews > li  { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-column-gap: .5em; height: 6em; max-width: 400px; margin: 0px; padding: 1em 0px; border-bottom: 1px solid #aaa; cursor: pointer; }
+
+ul#listMDpreviews img   { grid-row: 1 / span 2; grid-column: 1 / span 1; max-height: 6em; max-width: 100%; padding-right: .5em; }
+ul#listMDpreviews h3    { grid-row: 1 / span 1; grid-column: 2 / span 2; font-size: .8em; margin: 0px; padding: 0px; }
+ul#listMDpreviews span  { grid-row: 2 / span 1; grid-column: 2 / span 2; font-size: .8em; }
+
